@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<html lang="es-CO">
+<head>
+    <meta charset="UTF-8">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PNRL6V5MSP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-PNRL6V5MSP');
+</script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Catálogo de Desayunos Sorpresa Armenia en Bogotá - 40 desayunos sorpresa con sándwich, fruta, postre, globos, peluches y flores. Domicilios en toda Bogotá. También armamos tu desayuno personalizado.">
+    <meta name="keywords" content="desayunos sorpresa Bogotá, desayuno a domicilio Bogotá, desayuno sorpresa personalizado, regalos Bogotá, Desayunos Sorpresa Armenia, desayuno sorpresa Suba">
+    <title>Catálogo de Desayunos Sorpresa - Armenia | Desayunos a Domicilio en Bogotá</title>
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Catálogo de Desayunos Sorpresa - Armenia Bogotá">
+    <meta property="og:description" content="40 desayunos sorpresa con sándwich, fruta, postre, globos, peluches y flores. Entrega a domicilio en toda Bogotá.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://bogotadesayunosorpresa.dondeseria.com/catalogo">
+    <meta property="og:image" content="http://bogotadesayunosorpresa.dondeseria.com/assets/foto25.webp">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/catalog.css">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/logo.webp">
+
+    <style>
+        /* ===== Card: Desayuno personalizado con carrusel ===== */
+        .custom-section {
+            padding: 3rem 0 0;
+        }
+
+        .custom-card {
+            display: grid;
+            grid-template-columns: 1.05fr 1fr;
+            gap: 0;
+            background: linear-gradient(135deg, #FDFCFB 0%, #F5F1FA 100%);
+            border: 1px solid rgba(201, 168, 106, 0.35);
+            border-radius: 26px;
+            overflow: hidden;
+            box-shadow: 0 22px 60px rgba(22, 18, 28, 0.10);
+        }
+
+        .custom-card-content {
+            padding: 3rem 2.75rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .custom-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            align-self: flex-start;
+            background: linear-gradient(135deg, #C9A86A 0%, #A8853F 100%);
+            color: #fff;
+            font-size: 0.72rem;
+            font-weight: 600;
+            letter-spacing: 0.14em;
+            text-transform: uppercase;
+            padding: 0.45rem 1rem;
+            border-radius: 999px;
+            margin-bottom: 1.25rem;
+        }
+
+        .custom-card-content h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(1.85rem, 3.2vw, 2.6rem);
+            line-height: 1.15;
+            color: #14101B;
+            margin-bottom: 1rem;
+        }
+
+        .custom-card-content h2 span {
+            color: #8C5FBF;
+        }
+
+        .custom-card-content > p {
+            color: #6B6375;
+            line-height: 1.75;
+            margin-bottom: 1.5rem;
+        }
+
+        .custom-points {
+            list-style: none;
+            padding: 0;
+            margin: 0 0 1.9rem;
+            display: grid;
+            gap: 0.7rem;
+        }
+
+        .custom-points li {
+            position: relative;
+            padding-left: 1.75rem;
+            color: #14101B;
+            font-size: 0.95rem;
+            line-height: 1.5;
+        }
+
+        .custom-points li::before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: rgba(140, 95, 191, 0.12);
+            color: #8C5FBF;
+            font-size: 0.7rem;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .custom-actions {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.85rem;
+            align-items: center;
+        }
+
+        .btn-custom {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.6rem;
+            background: linear-gradient(135deg, #25D366 0%, #128C7E 100%);
+            color: #fff;
+            padding: 0.95rem 1.75rem;
+            border-radius: 999px;
+            font-weight: 600;
+            font-size: 0.98rem;
+            text-decoration: none;
+            box-shadow: 0 10px 26px rgba(18, 140, 126, 0.28);
+            transition: transform 0.25s ease, box-shadow 0.25s ease;
+        }
+
+        .btn-custom:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 16px 34px rgba(18, 140, 126, 0.35);
+        }
+
+        .btn-custom svg { width: 20px; height: 20px; }
+
+        .custom-note {
+            font-size: 0.86rem;
+            color: #6B6375;
+        }
+
+        /* ---- Carrusel ---- */
+        .custom-carousel {
+            position: relative;
+            min-height: 420px;
+            background: #14101B;
+            overflow: hidden;
+        }
+
+        .carousel-slides {
+            position: absolute;
+            inset: 0;
+        }
+
+        .carousel-slide {
+            position: absolute;
+            inset: 0;
+            opacity: 0;
+            transform: scale(1.04);
+            transition: opacity 0.8s ease, transform 1.6s ease;
+        }
+
+        .carousel-slide.active {
+            opacity: 1;
+            transform: scale(1);
+        }
+
+        .carousel-slide img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+
+        .carousel-nav {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 42px;
+            height: 42px;
+            border: none;
+            border-radius: 50%;
+            background: rgba(253, 252, 251, 0.88);
+            color: #14101B;
+            font-size: 1.3rem;
+            line-height: 1;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.22);
+            transition: background 0.25s ease, transform 0.25s ease;
+            z-index: 3;
+        }
+
+        .carousel-nav:hover { background: #fff; transform: translateY(-50%) scale(1.06); }
+        .carousel-prev { left: 14px; }
+        .carousel-next { right: 14px; }
+
+        .carousel-dots {
+            position: absolute;
+            bottom: 16px;
+            left: 0;
+            right: 0;
+            display: flex;
+            justify-content: center;
+            gap: 8px;
+            z-index: 3;
+        }
+
+        .carousel-dot {
+            width: 9px;
+            height: 9px;
+            border-radius: 50%;
+            border: none;
+            padding: 0;
+            background: rgba(255, 255, 255, 0.45);
+            cursor: pointer;
+            transition: all 0.25s ease;
+        }
+
+        .carousel-dot.active {
+            background: #C9A86A;
+            width: 26px;
+            border-radius: 999px;
+        }
+
+        @media (max-width: 900px) {
+            .custom-card { grid-template-columns: 1fr; }
+            .custom-carousel { min-height: 320px; order: -1; }
+            .custom-card-content { padding: 2.25rem 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <div id="navbar-container"></div>
+
+    <!-- Hero Section -->
+    <section class="catalog-hero">
+        <div class="container">
+            <h1>Nuestro Catálogo</h1>
+            <p>Desayunos Sorpresa Armenia · Desayunos sorpresa y regalos con domicilio en toda Bogotá</p>
+        </div>
+    </section>
+
+    <!-- Card: Desayuno Personalizado -->
+    <section class="custom-section">
+        <div class="container">
+            <div class="custom-card">
+                <div class="custom-card-content">
+                    <span class="custom-badge">A tu medida</span>
+                    <h2>Hacemos tu <span>desayuno personalizado</span></h2>
+                    <p>
+                        ¿No encuentras exactamente lo que buscas? Armamos tu desayuno sorpresa desde cero:
+                        tú eliges los productos, la presentación y el presupuesto, y nosotros lo preparamos
+                        y lo entregamos en cualquier localidad de Bogotá.
+                    </p>
+                    <ul class="custom-points">
+                        <li>Escoges los productos, la caja o bandeja y la decoración</li>
+                        <li>Añade globos, flores, peluches, cerveza o tarjeta con foto</li>
+                        <li>Nos ajustamos al presupuesto que tengas disponible</li>
+                        <li>Entrega programada a la hora que necesites en toda Bogotá</li>
+                    </ul>
+                    <div class="custom-actions">
+                        <a href="https://wa.me/573170476273?text=Hola%2C%20quiero%20armar%20un%20desayuno%20sorpresa%20personalizado%20en%20Bogot%C3%A1"
+                           class="btn-custom" target="_blank" rel="noopener">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+                            </svg>
+                            Diseñar mi desayuno
+                        </a>
+                        <span class="custom-note">Cotización sin costo por WhatsApp</span>
+                    </div>
+                </div>
+
+                <div class="custom-carousel">
+                    <div class="carousel-slides" id="carousel-slides">
+                        <div class="carousel-slide active"><img src="assets/foto25.webp" alt="Desayuno sorpresa personalizado con girasoles y Ferrero Rocher" loading="lazy"></div>
+                        <div class="carousel-slide"><img src="assets/foto24.webp" alt="Bandeja gourmet personalizada con corazón de Ferrero" loading="lazy"></div>
+                        <div class="carousel-slide"><img src="assets/foto39.webp" alt="Bandeja de desayuno personalizada con nueve rosas y globos" loading="lazy"></div>
+                        <div class="carousel-slide"><img src="assets/foto31.webp" alt="Desayuno personalizado con peluches y globos" loading="lazy"></div>
+                        <div class="carousel-slide"><img src="assets/foto34.webp" alt="Bandeja de madera personalizada con torta y jugo natural" loading="lazy"></div>
+                        <div class="carousel-slide"><img src="assets/foto5.webp" alt="Caja hexagonal personalizada con cervezas y snacks" loading="lazy"></div>
+                        <div class="carousel-slide"><img src="assets/foto30.webp" alt="Caja hexagonal personalizada con peluche y dulces" loading="lazy"></div>
+                        <div class="carousel-slide"><img src="assets/foto37.webp" alt="Desayuno personalizado con rosas en base de vidrio" loading="lazy"></div>
+                        <div class="carousel-slide"><img src="assets/foto6.webp" alt="Bandeja de celebración personalizada con torta y globos" loading="lazy"></div>
+                        <div class="carousel-slide"><img src="assets/foto27.webp" alt="Desayuno completo personalizado en caja de madera" loading="lazy"></div>
+                    </div>
+                    <button class="carousel-nav carousel-prev" id="carousel-prev" aria-label="Foto anterior">‹</button>
+                    <button class="carousel-nav carousel-next" id="carousel-next" aria-label="Foto siguiente">›</button>
+                    <div class="carousel-dots" id="carousel-dots"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Filters -->
+    <section class="catalog-filters">
+        <div class="container">
+            <div class="catalog-search">
+                <input type="search" id="product-search" placeholder="Buscar por nombre o código (ej. desayuno o 001)" aria-label="Buscar desayuno por nombre o código">
+            </div>
+            <div class="filters-container">
+                <span class="filter-label">Filtrar por:</span>
+                <button class="filter-btn active" data-filter="todos">Todos los Desayunos</button>
+                <button class="filter-btn" data-filter="precio-bajo">Hasta $70.000</button>
+                <button class="filter-btn" data-filter="precio-medio">$70.000 - $100.000</button>
+                <button class="filter-btn" data-filter="precio-alto">Más de $100.000</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Results Counter -->
+    <div class="results-counter">
+        <div class="container">
+            Mostrando <strong id="results-count">40</strong> desayunos
+        </div>
+    </div>
+
+    <!-- Products Grid -->
+    <section class="catalog-section">
+        <div class="container">
+            <div class="products-grid" id="products-grid">
+                <!-- Los productos se generarán aquí -->
+            </div>
+
+            <!-- Empty State -->
+            <div class="empty-state" id="empty-state">
+                <h3>No se encontraron productos</h3>
+                <p>Prueba con un filtro diferente para descubrir más alternativas</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <div class="lightbox-content">
+            <button class="lightbox-close" id="lightbox-close">×</button>
+            <img src="" alt="" class="lightbox-image" id="lightbox-image">
+            <div class="lightbox-info">
+                <h3 id="lightbox-title"></h3>
+                <p id="lightbox-price"></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scroll to Top -->
+    <button class="scroll-top" id="scroll-top">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="18 15 12 9 6 15"></polyline>
+        </svg>
+    </button>
+
+    <!-- Footer -->
+    <div id="footer-container"></div>
+
+    <!-- WhatsApp Button -->
+    <div id="whatsapp-button-container"></div>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+    <script>
+        // Datos de productos completos - Desayunos Sorpresa Armenia Bogotá
+const products = [
+    {
+        id: 1,
+        name: "Desayuno Sorpresa Antojos",
+        price: 95700,
+        image: "assets/foto1.webp",
+        description: "Postre · Sándwich · Fruta picada · Jugo de naranja en envase de vidrio · Chocoramo · Rosquitas · Boli queso · Galletas personales · Galleta Capri · 2 masmelos en forma de corazón · Moño · Globo metalizado R18 · Caja · Cinta y papel decorativo · Tarjeta.",
+        categories: ["precio-medio"]
+    },
+    {
+        id: 2,
+        name: "Desayuno Frutal Saludable",
+        price: 79900,
+        image: "assets/foto2.webp",
+        description: "Naranja · 2 duraznos · Manzana roja · Manzana verde · Granadilla · Ciruelas · 5 bananos bocadillo · Sándwich · Galletas personales Tosh · Jugo Hit 200 ml · Globo metalizado R18 · Globo metalizado R12 · Tarjeta personalizada pequeña · Caja 28x17x7 · Cinta y papel decorativo.",
+        categories: ["precio-medio"]
+    },
+    {
+        id: 3,
+        name: "Desayuno Clásico Sorpresa",
+        price: 89900,
+        image: "assets/foto3.webp",
+        description: "Sándwich · Postre · Manzana · Durazno · Papas · Galletas artesanales · Mini Chocorramo · Jugo Hit · Roscas · Galletas personales · Tarjeta · Globo burbuja R18 · 3 bombas de látex R9 · Papel decorativo y cinta · Caja 18x30x7.",
+        categories: ["precio-medio"]
+    },
+    {
+        id: 4,
+        name: "Desayuno en Caja de Madera con Cerveza",
+        price: 89900,
+        image: "assets/foto4.webp",
+        description: "Sándwich · Manzana · Durazno · Galletas artesanales mini · Cereal · Yogurt · Bon Yurt · Croissant · Cerveza · Caja de madera 31x17 · 12 globos · Espaldar escarchado · Cinta decorativa · Sticker.",
+        categories: ["precio-medio"]
+    },
+    {
+        id: 5,
+        name: "Caja Hexagonal Tamal y Cervezas",
+        price: 139000,
+        image: "assets/foto5.webp",
+        description: "Tamal · 2 cervezas Coronita · 2 cervezas Corona en lata · Maicitos · Tostaco · 2 popetas · Maní · Gol · Galletas personales · 2 mini masmelos Chocmelos · Manía limón · Hot Wheels · 3 fotos · Globo burbuja R24 · 5 globos de látex R6 · Moño · Caja hexagonal forrada · Cintas · Sticker · Tarjeta.",
+        categories: ["precio-alto"]
+    },
+    {
+        id: 6,
+        name: "Bandeja Celebración con Torta",
+        price: 159000,
+        image: "assets/foto6.webp",
+        description: "36 bombas R6 · Globo burbuja R24 · Bandeja con espaldar · Letrero · Moños · Sándwich · Fruta picada · Torta para cuatro personas · 2 cervezas Corona · Jugo de naranja natural en envase de vidrio · Maní · Galletas artesanales · Corazón hojaldrado · 2 ramitos · Tarjeta · Sticker · Cinta y papel decorativo.",
+        categories: ["precio-alto"]
+    },
+    {
+        id: 7,
+        name: "Desayuno Mini Saludable",
+        price: 64700,
+        image: "assets/foto7.webp",
+        description: "Sándwich · Yogurt · Fruta mini · Durazno · Galletas artesanales mini · Jugo Hit · Cereal · Tarjeta personalizada · Globo metalizado R18 · Caja decorada 30x16x6 · Papel decorativo · Aplique en foami · Cinta.",
+        categories: ["precio-bajo"]
+    },
+    {
+        id: 8,
+        name: "Desayuno Sorpresa Esencial",
+        price: 78900,
+        image: "assets/foto8.webp",
+        description: "Galletas Tosh personales · Jugo Hit · Sándwich · Postre · Uvas · Durazno · Globo metalizado R18 · Globo metalizado R12 · Cinta decorativa · Moño · Tarjeta · Papel decorativo · Caja 19x26x7.",
+        categories: ["precio-medio"]
+    },
+    {
+        id: 9,
+        name: "Desayuno con Ramo en Caja de Madera",
+        price: 79900,
+        image: "assets/foto9.webp",
+        description: "Sándwich · 2 bananos bocadillo · Manzana · Durazno · Yogurt · Té Hatsu · Ramo de flores pequeño · Globo metalizado R12 · Globo burbuja mini · Bomba de látex R12 · 4 moños · Cinta y papel decorativo · Caja de madera 24x21x6 · Tarjeta.",
+        categories: ["precio-medio"]
+    },
+    {
+        id: 10,
+        name: "Desayuno Antojos Dulces",
+        price: 82900,
+        image: "assets/foto10.webp",
+        description: "Sándwich · Postre · Manzana · Durazno · Snack de caramelo · Galleta Dux personal · Rosquitas · Leche achocolatada · Galleta Capri · Chocoso Bimbo 65 g · Galletas artesanales · Tarjeta · Globo metalizado R18 · Papel y cinta decorativa · Tres moños · Caja 30x22x6 · Aplique decorativo.",
+        categories: ["precio-medio"]
+    },
+    {
+        id: 11,
+        name: "Desayuno Dulce con Rosas",
+        price: 59000,
+        image: "assets/foto11.webp",
+        description: "Sándwich · Manzana · 2 masmelos en forma de corazón · Ponqué Ramito · 2 Coffee Delight · Galletas personales · Galleta wafer Capri · Choco Break · Jugo Hit 200 ml · Barquillo Piazza · 3 rosas · Sticker · Cinta y papel decorativo · Caja 25x25x7 · Tarjeta personalizada.",
+        categories: ["precio-bajo"]
+    },
+    {
+        id: 12,
+        name: "Desayuno Sorpresa Económico",
+        price: 49900,
+        image: "assets/foto12.webp",
+        description: "Sándwich · Manzana · Bebida láctea Like Parmalat · Galletas personales · Cereal · Jugo Hit · 2 masmelos en forma de corazón · Ponqué Ramito · Galleta Capri · 2 Coffee Delight · Choco Break · Sticker · Cinta y papel decorativo · Caja 25x25x8 · Tarjeta personalizada.",
+        categories: ["precio-bajo"]
+    },
+    {
+        id: 13,
+        name: "Caja Snacks con Cerveza Heineken",
+        price: 59700,
+        image: "assets/foto13.webp",
+        description: "Sándwich · Mini fruta picada · Papas · Mini rollitos de jamón y queso · Maní · Mini chocolatina Jumbo · Cerveza Heineken 210 ml · Cinta decorativa · Tarjeta · Caja · Papel decorativo.",
+        categories: ["precio-bajo"]
+    },
+    {
+        id: 14,
+        name: "Desayuno Dulce con Mini Ramo",
+        price: 66000,
+        image: "assets/foto14.webp",
+        description: "Postre · Manzana · 2 masmelos en forma de corazón · Mini Chocorramo · 2 Coffee Delight · Mini Gol · Maní · Jugo Hit · Choco Break · Bon Bon Bum · Mini ramo de flores variadas · Sticker · Cinta y papel decorativo · Caja 25x25x8 · Tarjeta personalizada.",
+        categories: ["precio-bajo"]
+    },
+    {
+        id: 15,
+        name: "Desayuno Chocolate y Croissant",
+        price: 68700,
+        image: "assets/foto15.webp",
+        description: "Chocolate Corona instantáneo · Sándwich · Galleta Capri · Ponqué Chocoso mini · Jumbo Flow mini · Galletas artesanales · Durazno · Croissant · Apliques · Tarjeta personalizada · Papel decorativo · Caja · Bomba de látex R12 · Cinta decorativa.",
+        categories: ["precio-bajo"]
+    },
+    {
+        id: 16,
+        name: "Caja Dulce Sorpresa",
+        price: 66000,
+        image: "assets/foto16.webp",
+        description: "Postre · Jugo Hit en cajita · Manzana · Cotudo · Galleta Capri · Maní · Mini Gol · 2 masmelos en forma de corazón · Chocolatina derretida 10 g · Tarjeta personalizada · Papel y cinta decorativa · Caja 32x20x8 · Globo de látex R12 · Moño.",
+        categories: ["precio-bajo"]
+    },
+    {
+        id: 17,
+        name: "Detalle Té Hatsu con Ramo de Rosas",
+        price: 89000,
+        image: "assets/foto17.webp",
+        description: "Sándwich · Té Hatsu · Chocolatina 10 g · Cajita de fresas · Cajita de gomitas · Bon Bon Bum · Ramo de 3 rosas y 3 margaritas · Moño de cinta de papel · Moño de cinta de tela · Caja · Tarjeta personalizada · Apliques decorativos · Cinta decorativa.",
+        categories: ["precio-medio"]
+    },
+    {
+        id: 18,
+        name: "Caja Osito con Cerveza",
+        price: 54000,
+        image: "assets/foto18.webp",
+        description: "Cerveza Coronita · Sándwich · Maní · 3 monedas de chocolate medianas · Jumbo Flow mini · 3 Coffee Delight · Caja en forma de oso · Masmelo · Papel decorativo · Apliques · Cinta decorativa · Tarjeta personalizada.",
+        categories: ["precio-bajo"]
+    },
+    {
+        id: 19,
+        name: "Caja Pingüino Desayuno Infantil",
+        price: 58000,
+        image: "assets/foto19.webp",
+        description: "Sándwich · Jugo Hit en cajita · Galletas personales · Mini ponqué · Liberales mini · Durazno · 2 masmelos · Caja en forma de pingüino · Tarjeta personalizada · Papel decorativo · Cinta decorativa.",
+        categories: ["precio-bajo"]
+    },
+    {
+        id: 20,
+        name: "Detalle Soda Hatsu con Fresas",
+        price: 69600,
+        image: "assets/foto20.webp",
+        description: "Sándwich · Soda Hatsu · Chocolatina 10 g · Durazno · Cajita de fresas · Cajita de gomitas · Bon Bon Bum · Moño de cinta de papel · Moño de cinta de tela · Caja · Tarjeta personalizada · Apliques decorativos · Cinta decorativa.",
+        categories: ["precio-bajo"]
+    },
+    {
+        id: 21,
+        name: "Desayuno Infantil Hot Wheels",
+        price: 75700,
+        image: "assets/foto21.webp",
+        description: "Carro Hot Wheels · Maní · Mini Gansito · Sándwich · Manzana · Jugo Hit · Galletas personales · Papel decorativo · Tarjeta · Caja · Cinta decorativa.",
+        categories: ["precio-medio"]
+    },
+    {
+        id: 22,
+        name: "Desayuno Salado con Pastel de Pollo",
+        price: 97900,
+        image: "assets/foto22.webp",
+        description: "Postre · Fruta picada · Chocolate Corona instantáneo · Galletas artesanales · Galletas saltinas personales · Gelatina · Mini brownie · Mini Gol · Pastel de pollo · Papel decorativo · Tarjeta personalizada · Cinta decorativa · 3 bombas R12 · Caja · Apliques.",
+        categories: ["precio-medio"]
+    },
+    {
+        id: 23,
+        name: "Desayuno Tamal y Ferrero Rocher",
+        price: 97900,
+        image: "assets/foto23.webp",
+        description: "Postre · Tamal · Pera · Jugo de naranja en envase de vidrio · Ferrero Rocher x3 · Capuchino personal · Fruta picada · Tarjeta · Apliques · Cinta y papel decorativo · Caja 31x24x8.",
+        categories: ["precio-medio"]
+    },
+    {
+        id: 24,
+        name: "Bandeja Gourmet Corazón Ferrero",
+        price: 168000,
+        image: "assets/foto24.webp",
+        description: "Ferrero corazón x8 · Milky Way · Bon Yurt · Cajita de galletas artesanales · Frasquito de maní · Fruta picada · Bandeja de huevos y salchichas, sándwich y arepitas rellenas de queso y jamón · Tacita de yogurt griego con cereal · Achiras Ramo · Paquete de pan de arroz · Galletas cafetas · Globo metalizado corazón · Moños en cinta de tela y de papel · Cinta decorativa · Apliques · Papel decorativo · Caja · Tarjeta personalizada.",
+        categories: ["precio-alto"]
+    },
+    {
+        id: 25,
+        name: "Desayuno Premium con Girasoles",
+        price: 185000,
+        image: "assets/foto25.webp",
+        description: "Ramo de 3 girasoles · Estuche Ferrero Rocher x8 · Sándwich · Snickers · Deditos de chocolate Italo · Galletas Danesa · Chocolate Beso de Amor · M&M · Paquete de pan de arroz · Cajita de galletas · Cajita de corazones hojaldrados · Yogurt con cereal · Fruta picada · Jugo de naranja en envase de vidrio · Globo metalizado R18 · Stickers y apliques decorativos · Cinta y papel decorativo · 4 moños en cinta de tela · 2 moños en cinta de papel · Tarjeta personalizada · Caja.",
+        categories: ["precio-alto"]
+    },
+    {
+        id: 26,
+        name: "Desayuno Sorpresa con Globos",
+        price: 94000,
+        image: "assets/foto26.webp",
+        description: "Leche achocolatada · Croissant · Uvas · Durazno · Postre · Galletas Capri · Mini Chocoso · Sándwich · Globo burbuja R18 · Globo de látex R9 · Globo de látex R6 · Caja 28x18x7 · Cinta decorativa · Tarjeta.",
+        categories: ["precio-medio"]
+    },
+    {
+        id: 27,
+        name: "Desayuno Completo en Caja de Madera",
+        price: 139000,
+        image: "assets/foto27.webp",
+        description: "Bandeja con huevos, salchichas y arepa · Postre · Sándwich · Manzana · Durazno · Galletas artesanales · Jugo de naranja natural · Cereal · Yogurt · Bon Yurt · Croissant · Cerveza Coronita · Caja de madera · 12 globos · Espaldar escarchado · Cinta decorativa · Sticker.",
+        categories: ["precio-alto"]
+    },
+    {
+        id: 28,
+        name: "Desayuno Saludable con Peluches Up",
+        price: 146000,
+        image: "assets/foto28.webp",
+        description: "Cereal · Yogurt · Mini corazones hojaldrados · Ponqué Miti Gala · Galletas Tosh personales · Barra de Tosh · Uvas · Manzana · Durazno · Pareja de peluches viejitos Up aprox. 18 cm · Caja 31x20x7 (alto 50) · Papel y cinta decorativa · Apliques mixtos · Tarjeta personalizada.",
+        categories: ["precio-alto"]
+    },
+    {
+        id: 29,
+        name: "Caja Hexagonal con Cervezas",
+        price: 97900,
+        image: "assets/foto29.webp",
+        description: "Bon Yurt · Manzana · Fresas · Ciruela · Corazón hojaldrado · Palo de queso · Sándwich · Jugo néctar Hit · Maní · Cerveza Coronita 210 ml · Cerveza Corona 355 ml · Globo burbuja R18 · 3 globos de látex R9 · 6 moños de cinta de tela · Caja hexagonal · Papel decorativo · Tarjeta personalizada.",
+        categories: ["precio-medio"]
+    },
+    {
+        id: 30,
+        name: "Caja Hexagonal con Peluche",
+        price: 155000,
+        image: "assets/foto30.webp",
+        description: "Bon Yurt · Manzana · Granadilla · Ciruela · Corazón hojaldrado · Palo de queso · Sándwich · Jugo néctar Hit · Gomas · Chocmelo mini · Postre de Alpina clásico · Mini barquillo Jirafa · Plumones punta pincel · Peluche 20 cm aprox. · Globo burbuja R18 · 3 globos de látex R9 · 6 moños de cinta de tela · Caja hexagonal · Papel decorativo · Tarjeta personalizada.",
+        categories: ["precio-alto"]
+    },
+    {
+        id: 31,
+        name: "Desayuno Antojos con Peluches Up",
+        price: 168000,
+        image: "assets/foto31.webp",
+        description: "Sándwich · Postre · Manzana · Mandarina · Detodito · Galleta Dux personal · Rosquitas · Leche achocolatada · 4 galletas Capri · Gomas · Chocoso Bimbo 65 g · Galletas artesanales · Snacks Bianchi · Tarjeta personalizada · Globo burbuja R18 · 3 globos de látex R5 · Globo de látex R9 · Papel y cinta decorativa · Pareja de peluches viejitos Up aprox. 18 cm · Caja 30x22x6 · Aplique decorativo.",
+        categories: ["precio-alto"]
+    },
+    {
+        id: 32,
+        name: "Bandeja de Madera Desayuno Completo",
+        price: 116000,
+        image: "assets/foto32.webp",
+        description: "Bandeja con huevos, salchichas y arepa · Postre · Fruta picada · Jugo de naranja en envase de vidrio · Galletas artesanales · Bon Yurt · Cruasán · Chocolatina de 10 g · Bon Kiss · 2 galletas Mamut · 2 bombas de látex R12 cromado · Globo metalizado R18 · Caja de madera · Mantel · Tarjeta personalizada · Apliques decorativos · Moños.",
+        categories: ["precio-alto"]
+    },
+    {
+        id: 33,
+        name: "Bandeja de Madera Desayuno Dulce",
+        price: 116000,
+        image: "assets/foto33.webp",
+        description: "Bandeja con huevos, salchichas y arepa · Postre · Fruta picada · Jugo de naranja en envase de vidrio · Galletas artesanales · Bon Yurt · Croissant · Chocolatina de 10 g · Bon Kiss · 2 masmelos corazón · 2 mini Chocorramos · 2 galletas Capri mini · 4 bombas de látex R5 cromado · Globo metalizado R18 · Caja de madera tipo bandeja 34x21 · Mantel · Tarjeta personalizada · Apliques decorativos · Moños.",
+        categories: ["precio-alto"]
+    },
+    {
+        id: 34,
+        name: "Bandeja de Madera con Torta",
+        price: 151900,
+        image: "assets/foto34.webp",
+        description: "Bandeja con huevos · Torta de 5 porciones · Fruta picada · Jugo de naranja en envase de vidrio · Caja de galletas artesanales · Yogurt griego con cereal · Croissant · Chocolatina 10 g · Galleta wafer · Beso de Amor · 2 galletas Capri · 2 globos R12 cromados · Globo metalizado R18 · Bandeja de madera · Mantel · Tarjeta personalizada (foto opcional) · Apliques · 4 moños · Cinta.",
+        categories: ["precio-alto"]
+    },
+    {
+        id: 35,
+        name: "Caja Cervecera Premium",
+        price: 119000,
+        image: "assets/foto35.webp",
+        description: "Cerveza Coronita · Cerveza Corona en lata · Cerveza Stella Artois en lata · Cerveza Budweiser · Galleta personal · Mini hamburguesa · Maní · Manzana · Rosca Jumbo · Papas · Vaso cervecero · Globo burbuja mini · Globo metalizado R18 · Caja de madera · Tarjeta · Papel decorativo · Cinta.",
+        categories: ["precio-alto"]
+    },
+    {
+        id: 36,
+        name: "Desayuno Saludable con Peluche",
+        price: 122900,
+        image: "assets/foto36.webp",
+        description: "Cereal · Yogurt · Mini corazones hojaldrados · Ponqué Miti Gala · Galletas Tosh personales · Barra de Tosh · Uvas · Manzana · Durazno · Peluche aprox. 20 cm · Caja 31x20x7 (alto 50) · Papel y cinta decorativa · Apliques mixtos · Tarjeta personalizada.",
+        categories: ["precio-alto"]
+    },
+    {
+        id: 37,
+        name: "Desayuno con Rosas en Base de Vidrio",
+        price: 129900,
+        image: "assets/foto37.webp",
+        description: "Jugo natural · Sándwich · Yogurt griego con cereal · Fruta picada · Gelatina · Globo metalizado R12 · 2 bombas de látex R12 · Mantel · Base de vidrio con 5 rosas · 2 girasoles · 6 moños en cinta · Tarjeta personalizada · Letrero en banderín · Caja.",
+        categories: ["precio-alto"]
+    },
+    {
+        id: 38,
+        name: "Bandeja con Ramo de Margaritas",
+        price: 159900,
+        image: "assets/foto38.webp",
+        description: "Globo burbuja R18 · 7 globos de látex R6 · Ramo de flores margarita en base de madera · Jugo de naranja natural en envase de vidrio · Fruta picada · Cereal · Yogurt griego · Sándwich pequeño · Huevos con salchichas y arepa · Bandeja de madera · 3 moños · Cinta decorativa · Tarjeta · Cubiertos.",
+        categories: ["precio-alto"]
+    },
+    {
+        id: 39,
+        name: "Bandeja Premium con 9 Rosas",
+        price: 230000,
+        image: "assets/foto39.webp",
+        description: "3 globos de látex cromados R12 · 20 globos de látex R6 · 9 rosas · Astromelia · Follaje gipso · Bon Yurt · Galletas artesanales · Croissant · Fruta picada · Cereal · Yogurt griego · Sándwich pequeño · Huevos con salchichas y arepa · Bandeja de madera · 3 moños · Cinta decorativa · Tarjeta · Cubiertos.",
+        categories: ["precio-alto"]
+    },
+    {
+        id: 40,
+        name: "Bandeja de Madera Desayuno Especial",
+        price: 129700,
+        image: "assets/foto40.webp",
+        description: "Bandeja con huevos, salchichas y arepa · Sándwich · Postre · Fruta picada · Jugo de naranja en envase de vidrio · Galletas artesanales · Yogurt griego con cereal · Croissant · Chocolatina de 10 g · Bon Kiss · 2 masmelos corazón · 2 bombas de látex R12 cromado · Globo metalizado R18 · Caja de madera tipo bandeja 34x21 · Mantel · Tarjeta personalizada · Apliques decorativos · Moños.",
+        categories: ["precio-alto"]
+    }
+];
+
+
+        // Estado de filtro y búsqueda
+        let currentFilter = 'todos';
+        let searchTerm = '';
+
+        // Código de referencia: 001, 002, 003...
+        function productCode(p) {
+            return String(p.id).padStart(3, '0');
+        }
+
+        // URL absoluta de la foto del producto
+        function productPhotoUrl(p) {
+            return 'http://bogotadesayunosorpresa.dondeseria.com/' + p.image.replace(/^\//, '');
+        }
+
+        // Normaliza texto para búsqueda sin tildes (u0300-u036f = acentos combinantes)
+        function normalizeText(t) {
+            return t.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
+        }
+
+        // Renderizar productos
+        function renderProducts() {
+            const filter = currentFilter;
+            const grid = document.getElementById('products-grid');
+            const emptyState = document.getElementById('empty-state');
+            const resultsCount = document.getElementById('results-count');
+
+            let filteredProducts = products;
+
+            if (filter !== 'todos') {
+                filteredProducts = products.filter(product =>
+                    product.categories.includes(filter)
+                );
+            }
+
+            // Búsqueda por nombre, descripción o código
+            if (searchTerm.trim()) {
+                const q = normalizeText(searchTerm.trim());
+                filteredProducts = filteredProducts.filter(product =>
+                    normalizeText(product.name).includes(q) ||
+                    normalizeText(product.description).includes(q) ||
+                    productCode(product).includes(q)
+                );
+            }
+
+            if (filteredProducts.length === 0) {
+                grid.style.display = 'none';
+                emptyState.classList.add('active');
+                resultsCount.textContent = '0';
+                return;
+            }
+
+            grid.style.display = 'grid';
+            emptyState.classList.remove('active');
+            resultsCount.textContent = filteredProducts.length;
+
+            grid.innerHTML = filteredProducts.map(product => `
+                <div class="product-card" data-categories="${product.categories.join(' ')}">
+                    <div class="product-image-container" onclick="openLightbox('${product.image}', '${product.name}', '${formatPrice(product.price)}')">
+                        <img src="${product.image}" alt="${product.name}" class="product-image" loading="lazy">
+                        <div class="zoom-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="11" cy="11" r="8"/>
+                                <path d="m21 21-4.35-4.35"/>
+                                <line x1="11" y1="8" x2="11" y2="14"/>
+                                <line x1="8" y1="11" x2="14" y2="11"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        ${product.oldPrice ? `<div class="product-offer-badge">OFERTA</div>` : ''}
+                        <div class="product-ref">Ref. ${productCode(product)}</div>
+                        <h3 class="product-name">${product.name}</h3>
+                        <div class="product-description">${product.description}</div>
+                        <div class="product-footer">
+                            <div>
+                                <span class="price-label ${product.oldPrice ? 'price-label-old' : ''}">${product.oldPrice ? formatPrice(product.oldPrice) : 'Desde'}</span>
+                                <div class="product-price">${formatPrice(product.price)}</div>
+                            </div>
+                            <a href="https://wa.me/573170476273?text=${encodeURIComponent('Hola, me interesa el producto: ' + product.name + ' (Ref. ' + productCode(product) + ') - ' + formatPrice(product.price) + ' | Foto: ' + productPhotoUrl(product))}"
+                               class="btn-order"
+                               target="_blank">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+                                </svg>
+                                Pedir Ahora
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        // Formatear precio
+        function formatPrice(price) {
+            return '$' + price.toLocaleString('es-CO');
+        }
+
+        // Filtros
+        document.querySelectorAll('.filter-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                this.classList.add('active');
+                currentFilter = this.dataset.filter;
+                renderProducts();
+                document.querySelector('.catalog-filters').scrollIntoView({ behavior: 'smooth', block: 'start' });
+            });
+        });
+
+        // Buscador por nombre, descripción o código
+        document.getElementById('product-search').addEventListener('input', function() {
+            searchTerm = this.value;
+            renderProducts();
+        });
+
+        // Lightbox
+        function openLightbox(image, name, price) {
+            document.getElementById('lightbox-image').src = image;
+            document.getElementById('lightbox-image').alt = name;
+            document.getElementById('lightbox-title').textContent = name;
+            document.getElementById('lightbox-price').textContent = price;
+            document.getElementById('lightbox').classList.add('active');
+        }
+
+        function closeLightbox() {
+            document.getElementById('lightbox').classList.remove('active');
+        }
+
+        document.getElementById('lightbox-close').addEventListener('click', closeLightbox);
+        document.getElementById('lightbox').addEventListener('click', function(e) {
+            if (e.target === this) closeLightbox();
+        });
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') closeLightbox();
+        });
+
+        // Botón volver arriba
+        const scrollTopBtn = document.getElementById('scroll-top');
+        window.addEventListener('scroll', function() {
+            if (window.pageYOffset > 600) scrollTopBtn.classList.add('visible');
+            else scrollTopBtn.classList.remove('visible');
+        });
+        scrollTopBtn.addEventListener('click', function() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+        // ===== Carrusel del desayuno personalizado =====
+        (function initCustomCarousel() {
+            const slides = Array.from(document.querySelectorAll('#carousel-slides .carousel-slide'));
+            const dotsWrap = document.getElementById('carousel-dots');
+            if (!slides.length || !dotsWrap) return;
+
+            let index = 0;
+            let timer = null;
+
+            slides.forEach((_, i) => {
+                const dot = document.createElement('button');
+                dot.className = 'carousel-dot' + (i === 0 ? ' active' : '');
+                dot.type = 'button';
+                dot.setAttribute('aria-label', 'Ver foto ' + (i + 1));
+                dot.addEventListener('click', () => { goTo(i); restart(); });
+                dotsWrap.appendChild(dot);
+            });
+
+            const dots = Array.from(dotsWrap.children);
+
+            function goTo(i) {
+                index = (i + slides.length) % slides.length;
+                slides.forEach((s, n) => s.classList.toggle('active', n === index));
+                dots.forEach((d, n) => d.classList.toggle('active', n === index));
+            }
+
+            function next() { goTo(index + 1); }
+            function prev() { goTo(index - 1); }
+            function start() { timer = setInterval(next, 4000); }
+            function restart() { clearInterval(timer); start(); }
+
+            document.getElementById('carousel-next').addEventListener('click', () => { next(); restart(); });
+            document.getElementById('carousel-prev').addEventListener('click', () => { prev(); restart(); });
+
+            const carousel = document.querySelector('.custom-carousel');
+            carousel.addEventListener('mouseenter', () => clearInterval(timer));
+            carousel.addEventListener('mouseleave', restart);
+
+            // Swipe en móvil
+            let startX = null;
+            carousel.addEventListener('touchstart', e => { startX = e.touches[0].clientX; }, { passive: true });
+            carousel.addEventListener('touchend', e => {
+                if (startX === null) return;
+                const dx = e.changedTouches[0].clientX - startX;
+                if (Math.abs(dx) > 45) { dx < 0 ? next() : prev(); restart(); }
+                startX = null;
+            });
+
+            start();
+        })();
+
+        // Render inicial
+        renderProducts();
+    </script>
+</body>
+</html>

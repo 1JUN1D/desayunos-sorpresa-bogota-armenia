@@ -290,3 +290,4 @@ function addHoneypot() {
 
 // Ejecutar después de cargar componentes
 setTimeout(addHoneypot, 1000);
+

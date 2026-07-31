@@ -11,6 +11,9 @@
   gtag('js', new Date());
 
   gtag('config', 'G-PNRL6V5MSP');
+  // Google Ads - la etiqueta solo se carga aqui; la conversion se dispara
+  // unicamente al hacer clic en los botones de pedido / WhatsApp (ver js/script.js)
+  gtag('config', 'AW-17658828097');
 </script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Catálogo de Desayunos Sorpresa Armenia en Bogotá - 40 desayunos sorpresa con sándwich, fruta, postre, globos, peluches y flores. Domicilios en toda Bogotá. También armamos tu desayuno personalizado.">
@@ -326,9 +329,9 @@
             <div class="filters-container">
                 <span class="filter-label">Filtrar por:</span>
                 <button class="filter-btn active" data-filter="todos">Todos los Desayunos</button>
-                <button class="filter-btn" data-filter="precio-bajo">Hasta $70.000</button>
-                <button class="filter-btn" data-filter="precio-medio">$70.000 - $100.000</button>
-                <button class="filter-btn" data-filter="precio-alto">Más de $100.000</button>
+                <button class="filter-btn" data-filter="precio-bajo">Hasta $90.000</button>
+                <button class="filter-btn" data-filter="precio-medio">$90.000 - $125.000</button>
+                <button class="filter-btn" data-filter="precio-alto">Más de $125.000</button>
             </div>
         </div>
     </section>
@@ -388,7 +391,7 @@ const products = [
     {
         id: 1,
         name: "Desayuno Sorpresa Antojos",
-        price: 95700,
+        price: 119900,
         image: "assets/foto1.webp",
         description: "Postre · Sándwich · Fruta picada · Jugo de naranja en envase de vidrio · Chocoramo · Rosquitas · Boli queso · Galletas personales · Galleta Capri · 2 masmelos en forma de corazón · Moño · Globo metalizado R18 · Caja · Cinta y papel decorativo · Tarjeta.",
         categories: ["precio-medio"]
@@ -396,7 +399,7 @@ const products = [
     {
         id: 2,
         name: "Desayuno Frutal Saludable",
-        price: 79900,
+        price: 99900,
         image: "assets/foto2.webp",
         description: "Naranja · 2 duraznos · Manzana roja · Manzana verde · Granadilla · Ciruelas · 5 bananos bocadillo · Sándwich · Galletas personales Tosh · Jugo Hit 200 ml · Globo metalizado R18 · Globo metalizado R12 · Tarjeta personalizada pequeña · Caja 28x17x7 · Cinta y papel decorativo.",
         categories: ["precio-medio"]
@@ -404,7 +407,7 @@ const products = [
     {
         id: 3,
         name: "Desayuno Clásico Sorpresa",
-        price: 89900,
+        price: 112900,
         image: "assets/foto3.webp",
         description: "Sándwich · Postre · Manzana · Durazno · Papas · Galletas artesanales · Mini Chocorramo · Jugo Hit · Roscas · Galletas personales · Tarjeta · Globo burbuja R18 · 3 bombas de látex R9 · Papel decorativo y cinta · Caja 18x30x7.",
         categories: ["precio-medio"]
@@ -412,7 +415,7 @@ const products = [
     {
         id: 4,
         name: "Desayuno en Caja de Madera con Cerveza",
-        price: 89900,
+        price: 112900,
         image: "assets/foto4.webp",
         description: "Sándwich · Manzana · Durazno · Galletas artesanales mini · Cereal · Yogurt · Bon Yurt · Croissant · Cerveza · Caja de madera 31x17 · 12 globos · Espaldar escarchado · Cinta decorativa · Sticker.",
         categories: ["precio-medio"]
@@ -420,7 +423,7 @@ const products = [
     {
         id: 5,
         name: "Caja Hexagonal Tamal y Cervezas",
-        price: 139000,
+        price: 173900,
         image: "assets/foto5.webp",
         description: "Tamal · 2 cervezas Coronita · 2 cervezas Corona en lata · Maicitos · Tostaco · 2 popetas · Maní · Gol · Galletas personales · 2 mini masmelos Chocmelos · Manía limón · Hot Wheels · 3 fotos · Globo burbuja R24 · 5 globos de látex R6 · Moño · Caja hexagonal forrada · Cintas · Sticker · Tarjeta.",
         categories: ["precio-alto"]
@@ -428,7 +431,7 @@ const products = [
     {
         id: 6,
         name: "Bandeja Celebración con Torta",
-        price: 159000,
+        price: 198900,
         image: "assets/foto6.webp",
         description: "36 bombas R6 · Globo burbuja R24 · Bandeja con espaldar · Letrero · Moños · Sándwich · Fruta picada · Torta para cuatro personas · 2 cervezas Corona · Jugo de naranja natural en envase de vidrio · Maní · Galletas artesanales · Corazón hojaldrado · 2 ramitos · Tarjeta · Sticker · Cinta y papel decorativo.",
         categories: ["precio-alto"]
@@ -436,7 +439,7 @@ const products = [
     {
         id: 7,
         name: "Desayuno Mini Saludable",
-        price: 64700,
+        price: 80900,
         image: "assets/foto7.webp",
         description: "Sándwich · Yogurt · Fruta mini · Durazno · Galletas artesanales mini · Jugo Hit · Cereal · Tarjeta personalizada · Globo metalizado R18 · Caja decorada 30x16x6 · Papel decorativo · Aplique en foami · Cinta.",
         categories: ["precio-bajo"]
@@ -444,7 +447,7 @@ const products = [
     {
         id: 8,
         name: "Desayuno Sorpresa Esencial",
-        price: 78900,
+        price: 98900,
         image: "assets/foto8.webp",
         description: "Galletas Tosh personales · Jugo Hit · Sándwich · Postre · Uvas · Durazno · Globo metalizado R18 · Globo metalizado R12 · Cinta decorativa · Moño · Tarjeta · Papel decorativo · Caja 19x26x7.",
         categories: ["precio-medio"]
@@ -452,7 +455,7 @@ const products = [
     {
         id: 9,
         name: "Desayuno con Ramo en Caja de Madera",
-        price: 79900,
+        price: 99900,
         image: "assets/foto9.webp",
         description: "Sándwich · 2 bananos bocadillo · Manzana · Durazno · Yogurt · Té Hatsu · Ramo de flores pequeño · Globo metalizado R12 · Globo burbuja mini · Bomba de látex R12 · 4 moños · Cinta y papel decorativo · Caja de madera 24x21x6 · Tarjeta.",
         categories: ["precio-medio"]
@@ -460,7 +463,7 @@ const products = [
     {
         id: 10,
         name: "Desayuno Antojos Dulces",
-        price: 82900,
+        price: 103900,
         image: "assets/foto10.webp",
         description: "Sándwich · Postre · Manzana · Durazno · Snack de caramelo · Galleta Dux personal · Rosquitas · Leche achocolatada · Galleta Capri · Chocoso Bimbo 65 g · Galletas artesanales · Tarjeta · Globo metalizado R18 · Papel y cinta decorativa · Tres moños · Caja 30x22x6 · Aplique decorativo.",
         categories: ["precio-medio"]
@@ -468,7 +471,7 @@ const products = [
     {
         id: 11,
         name: "Desayuno Dulce con Rosas",
-        price: 59000,
+        price: 73900,
         image: "assets/foto11.webp",
         description: "Sándwich · Manzana · 2 masmelos en forma de corazón · Ponqué Ramito · 2 Coffee Delight · Galletas personales · Galleta wafer Capri · Choco Break · Jugo Hit 200 ml · Barquillo Piazza · 3 rosas · Sticker · Cinta y papel decorativo · Caja 25x25x7 · Tarjeta personalizada.",
         categories: ["precio-bajo"]
@@ -476,7 +479,7 @@ const products = [
     {
         id: 12,
         name: "Desayuno Sorpresa Económico",
-        price: 49900,
+        price: 62900,
         image: "assets/foto12.webp",
         description: "Sándwich · Manzana · Bebida láctea Like Parmalat · Galletas personales · Cereal · Jugo Hit · 2 masmelos en forma de corazón · Ponqué Ramito · Galleta Capri · 2 Coffee Delight · Choco Break · Sticker · Cinta y papel decorativo · Caja 25x25x8 · Tarjeta personalizada.",
         categories: ["precio-bajo"]
@@ -484,7 +487,7 @@ const products = [
     {
         id: 13,
         name: "Caja Snacks con Cerveza Heineken",
-        price: 59700,
+        price: 74900,
         image: "assets/foto13.webp",
         description: "Sándwich · Mini fruta picada · Papas · Mini rollitos de jamón y queso · Maní · Mini chocolatina Jumbo · Cerveza Heineken 210 ml · Cinta decorativa · Tarjeta · Caja · Papel decorativo.",
         categories: ["precio-bajo"]
@@ -492,7 +495,7 @@ const products = [
     {
         id: 14,
         name: "Desayuno Dulce con Mini Ramo",
-        price: 66000,
+        price: 82900,
         image: "assets/foto14.webp",
         description: "Postre · Manzana · 2 masmelos en forma de corazón · Mini Chocorramo · 2 Coffee Delight · Mini Gol · Maní · Jugo Hit · Choco Break · Bon Bon Bum · Mini ramo de flores variadas · Sticker · Cinta y papel decorativo · Caja 25x25x8 · Tarjeta personalizada.",
         categories: ["precio-bajo"]
@@ -500,7 +503,7 @@ const products = [
     {
         id: 15,
         name: "Desayuno Chocolate y Croissant",
-        price: 68700,
+        price: 85900,
         image: "assets/foto15.webp",
         description: "Chocolate Corona instantáneo · Sándwich · Galleta Capri · Ponqué Chocoso mini · Jumbo Flow mini · Galletas artesanales · Durazno · Croissant · Apliques · Tarjeta personalizada · Papel decorativo · Caja · Bomba de látex R12 · Cinta decorativa.",
         categories: ["precio-bajo"]
@@ -508,7 +511,7 @@ const products = [
     {
         id: 16,
         name: "Caja Dulce Sorpresa",
-        price: 66000,
+        price: 82900,
         image: "assets/foto16.webp",
         description: "Postre · Jugo Hit en cajita · Manzana · Cotudo · Galleta Capri · Maní · Mini Gol · 2 masmelos en forma de corazón · Chocolatina derretida 10 g · Tarjeta personalizada · Papel y cinta decorativa · Caja 32x20x8 · Globo de látex R12 · Moño.",
         categories: ["precio-bajo"]
@@ -516,7 +519,7 @@ const products = [
     {
         id: 17,
         name: "Detalle Té Hatsu con Ramo de Rosas",
-        price: 89000,
+        price: 111900,
         image: "assets/foto17.webp",
         description: "Sándwich · Té Hatsu · Chocolatina 10 g · Cajita de fresas · Cajita de gomitas · Bon Bon Bum · Ramo de 3 rosas y 3 margaritas · Moño de cinta de papel · Moño de cinta de tela · Caja · Tarjeta personalizada · Apliques decorativos · Cinta decorativa.",
         categories: ["precio-medio"]
@@ -524,7 +527,7 @@ const products = [
     {
         id: 18,
         name: "Caja Osito con Cerveza",
-        price: 54000,
+        price: 67900,
         image: "assets/foto18.webp",
         description: "Cerveza Coronita · Sándwich · Maní · 3 monedas de chocolate medianas · Jumbo Flow mini · 3 Coffee Delight · Caja en forma de oso · Masmelo · Papel decorativo · Apliques · Cinta decorativa · Tarjeta personalizada.",
         categories: ["precio-bajo"]
@@ -532,7 +535,7 @@ const products = [
     {
         id: 19,
         name: "Caja Pingüino Desayuno Infantil",
-        price: 58000,
+        price: 72900,
         image: "assets/foto19.webp",
         description: "Sándwich · Jugo Hit en cajita · Galletas personales · Mini ponqué · Liberales mini · Durazno · 2 masmelos · Caja en forma de pingüino · Tarjeta personalizada · Papel decorativo · Cinta decorativa.",
         categories: ["precio-bajo"]
@@ -540,7 +543,7 @@ const products = [
     {
         id: 20,
         name: "Detalle Soda Hatsu con Fresas",
-        price: 69600,
+        price: 87900,
         image: "assets/foto20.webp",
         description: "Sándwich · Soda Hatsu · Chocolatina 10 g · Durazno · Cajita de fresas · Cajita de gomitas · Bon Bon Bum · Moño de cinta de papel · Moño de cinta de tela · Caja · Tarjeta personalizada · Apliques decorativos · Cinta decorativa.",
         categories: ["precio-bajo"]
@@ -548,7 +551,7 @@ const products = [
     {
         id: 21,
         name: "Desayuno Infantil Hot Wheels",
-        price: 75700,
+        price: 94900,
         image: "assets/foto21.webp",
         description: "Carro Hot Wheels · Maní · Mini Gansito · Sándwich · Manzana · Jugo Hit · Galletas personales · Papel decorativo · Tarjeta · Caja · Cinta decorativa.",
         categories: ["precio-medio"]
@@ -556,7 +559,7 @@ const products = [
     {
         id: 22,
         name: "Desayuno Salado con Pastel de Pollo",
-        price: 97900,
+        price: 122900,
         image: "assets/foto22.webp",
         description: "Postre · Fruta picada · Chocolate Corona instantáneo · Galletas artesanales · Galletas saltinas personales · Gelatina · Mini brownie · Mini Gol · Pastel de pollo · Papel decorativo · Tarjeta personalizada · Cinta decorativa · 3 bombas R12 · Caja · Apliques.",
         categories: ["precio-medio"]
@@ -564,7 +567,7 @@ const products = [
     {
         id: 23,
         name: "Desayuno Tamal y Ferrero Rocher",
-        price: 97900,
+        price: 122900,
         image: "assets/foto23.webp",
         description: "Postre · Tamal · Pera · Jugo de naranja en envase de vidrio · Ferrero Rocher x3 · Capuchino personal · Fruta picada · Tarjeta · Apliques · Cinta y papel decorativo · Caja 31x24x8.",
         categories: ["precio-medio"]
@@ -572,7 +575,7 @@ const products = [
     {
         id: 24,
         name: "Bandeja Gourmet Corazón Ferrero",
-        price: 168000,
+        price: 210900,
         image: "assets/foto24.webp",
         description: "Ferrero corazón x8 · Milky Way · Bon Yurt · Cajita de galletas artesanales · Frasquito de maní · Fruta picada · Bandeja de huevos y salchichas, sándwich y arepitas rellenas de queso y jamón · Tacita de yogurt griego con cereal · Achiras Ramo · Paquete de pan de arroz · Galletas cafetas · Globo metalizado corazón · Moños en cinta de tela y de papel · Cinta decorativa · Apliques · Papel decorativo · Caja · Tarjeta personalizada.",
         categories: ["precio-alto"]
@@ -580,7 +583,7 @@ const products = [
     {
         id: 25,
         name: "Desayuno Premium con Girasoles",
-        price: 185000,
+        price: 231900,
         image: "assets/foto25.webp",
         description: "Ramo de 3 girasoles · Estuche Ferrero Rocher x8 · Sándwich · Snickers · Deditos de chocolate Italo · Galletas Danesa · Chocolate Beso de Amor · M&M · Paquete de pan de arroz · Cajita de galletas · Cajita de corazones hojaldrados · Yogurt con cereal · Fruta picada · Jugo de naranja en envase de vidrio · Globo metalizado R18 · Stickers y apliques decorativos · Cinta y papel decorativo · 4 moños en cinta de tela · 2 moños en cinta de papel · Tarjeta personalizada · Caja.",
         categories: ["precio-alto"]
@@ -588,7 +591,7 @@ const products = [
     {
         id: 26,
         name: "Desayuno Sorpresa con Globos",
-        price: 94000,
+        price: 117900,
         image: "assets/foto26.webp",
         description: "Leche achocolatada · Croissant · Uvas · Durazno · Postre · Galletas Capri · Mini Chocoso · Sándwich · Globo burbuja R18 · Globo de látex R9 · Globo de látex R6 · Caja 28x18x7 · Cinta decorativa · Tarjeta.",
         categories: ["precio-medio"]
@@ -596,7 +599,7 @@ const products = [
     {
         id: 27,
         name: "Desayuno Completo en Caja de Madera",
-        price: 139000,
+        price: 173900,
         image: "assets/foto27.webp",
         description: "Bandeja con huevos, salchichas y arepa · Postre · Sándwich · Manzana · Durazno · Galletas artesanales · Jugo de naranja natural · Cereal · Yogurt · Bon Yurt · Croissant · Cerveza Coronita · Caja de madera · 12 globos · Espaldar escarchado · Cinta decorativa · Sticker.",
         categories: ["precio-alto"]
@@ -604,7 +607,7 @@ const products = [
     {
         id: 28,
         name: "Desayuno Saludable con Peluches Up",
-        price: 146000,
+        price: 182900,
         image: "assets/foto28.webp",
         description: "Cereal · Yogurt · Mini corazones hojaldrados · Ponqué Miti Gala · Galletas Tosh personales · Barra de Tosh · Uvas · Manzana · Durazno · Pareja de peluches viejitos Up aprox. 18 cm · Caja 31x20x7 (alto 50) · Papel y cinta decorativa · Apliques mixtos · Tarjeta personalizada.",
         categories: ["precio-alto"]
@@ -612,7 +615,7 @@ const products = [
     {
         id: 29,
         name: "Caja Hexagonal con Cervezas",
-        price: 97900,
+        price: 122900,
         image: "assets/foto29.webp",
         description: "Bon Yurt · Manzana · Fresas · Ciruela · Corazón hojaldrado · Palo de queso · Sándwich · Jugo néctar Hit · Maní · Cerveza Coronita 210 ml · Cerveza Corona 355 ml · Globo burbuja R18 · 3 globos de látex R9 · 6 moños de cinta de tela · Caja hexagonal · Papel decorativo · Tarjeta personalizada.",
         categories: ["precio-medio"]
@@ -620,7 +623,7 @@ const products = [
     {
         id: 30,
         name: "Caja Hexagonal con Peluche",
-        price: 155000,
+        price: 193900,
         image: "assets/foto30.webp",
         description: "Bon Yurt · Manzana · Granadilla · Ciruela · Corazón hojaldrado · Palo de queso · Sándwich · Jugo néctar Hit · Gomas · Chocmelo mini · Postre de Alpina clásico · Mini barquillo Jirafa · Plumones punta pincel · Peluche 20 cm aprox. · Globo burbuja R18 · 3 globos de látex R9 · 6 moños de cinta de tela · Caja hexagonal · Papel decorativo · Tarjeta personalizada.",
         categories: ["precio-alto"]
@@ -628,7 +631,7 @@ const products = [
     {
         id: 31,
         name: "Desayuno Antojos con Peluches Up",
-        price: 168000,
+        price: 210900,
         image: "assets/foto31.webp",
         description: "Sándwich · Postre · Manzana · Mandarina · Detodito · Galleta Dux personal · Rosquitas · Leche achocolatada · 4 galletas Capri · Gomas · Chocoso Bimbo 65 g · Galletas artesanales · Snacks Bianchi · Tarjeta personalizada · Globo burbuja R18 · 3 globos de látex R5 · Globo de látex R9 · Papel y cinta decorativa · Pareja de peluches viejitos Up aprox. 18 cm · Caja 30x22x6 · Aplique decorativo.",
         categories: ["precio-alto"]
@@ -636,7 +639,7 @@ const products = [
     {
         id: 32,
         name: "Bandeja de Madera Desayuno Completo",
-        price: 116000,
+        price: 145900,
         image: "assets/foto32.webp",
         description: "Bandeja con huevos, salchichas y arepa · Postre · Fruta picada · Jugo de naranja en envase de vidrio · Galletas artesanales · Bon Yurt · Cruasán · Chocolatina de 10 g · Bon Kiss · 2 galletas Mamut · 2 bombas de látex R12 cromado · Globo metalizado R18 · Caja de madera · Mantel · Tarjeta personalizada · Apliques decorativos · Moños.",
         categories: ["precio-alto"]
@@ -644,7 +647,7 @@ const products = [
     {
         id: 33,
         name: "Bandeja de Madera Desayuno Dulce",
-        price: 116000,
+        price: 145900,
         image: "assets/foto33.webp",
         description: "Bandeja con huevos, salchichas y arepa · Postre · Fruta picada · Jugo de naranja en envase de vidrio · Galletas artesanales · Bon Yurt · Croissant · Chocolatina de 10 g · Bon Kiss · 2 masmelos corazón · 2 mini Chocorramos · 2 galletas Capri mini · 4 bombas de látex R5 cromado · Globo metalizado R18 · Caja de madera tipo bandeja 34x21 · Mantel · Tarjeta personalizada · Apliques decorativos · Moños.",
         categories: ["precio-alto"]
@@ -652,7 +655,7 @@ const products = [
     {
         id: 34,
         name: "Bandeja de Madera con Torta",
-        price: 151900,
+        price: 189900,
         image: "assets/foto34.webp",
         description: "Bandeja con huevos · Torta de 5 porciones · Fruta picada · Jugo de naranja en envase de vidrio · Caja de galletas artesanales · Yogurt griego con cereal · Croissant · Chocolatina 10 g · Galleta wafer · Beso de Amor · 2 galletas Capri · 2 globos R12 cromados · Globo metalizado R18 · Bandeja de madera · Mantel · Tarjeta personalizada (foto opcional) · Apliques · 4 moños · Cinta.",
         categories: ["precio-alto"]
@@ -660,7 +663,7 @@ const products = [
     {
         id: 35,
         name: "Caja Cervecera Premium",
-        price: 119000,
+        price: 148900,
         image: "assets/foto35.webp",
         description: "Cerveza Coronita · Cerveza Corona en lata · Cerveza Stella Artois en lata · Cerveza Budweiser · Galleta personal · Mini hamburguesa · Maní · Manzana · Rosca Jumbo · Papas · Vaso cervecero · Globo burbuja mini · Globo metalizado R18 · Caja de madera · Tarjeta · Papel decorativo · Cinta.",
         categories: ["precio-alto"]
@@ -668,7 +671,7 @@ const products = [
     {
         id: 36,
         name: "Desayuno Saludable con Peluche",
-        price: 122900,
+        price: 153900,
         image: "assets/foto36.webp",
         description: "Cereal · Yogurt · Mini corazones hojaldrados · Ponqué Miti Gala · Galletas Tosh personales · Barra de Tosh · Uvas · Manzana · Durazno · Peluche aprox. 20 cm · Caja 31x20x7 (alto 50) · Papel y cinta decorativa · Apliques mixtos · Tarjeta personalizada.",
         categories: ["precio-alto"]
@@ -676,7 +679,7 @@ const products = [
     {
         id: 37,
         name: "Desayuno con Rosas en Base de Vidrio",
-        price: 129900,
+        price: 162900,
         image: "assets/foto37.webp",
         description: "Jugo natural · Sándwich · Yogurt griego con cereal · Fruta picada · Gelatina · Globo metalizado R12 · 2 bombas de látex R12 · Mantel · Base de vidrio con 5 rosas · 2 girasoles · 6 moños en cinta · Tarjeta personalizada · Letrero en banderín · Caja.",
         categories: ["precio-alto"]
@@ -684,7 +687,7 @@ const products = [
     {
         id: 38,
         name: "Bandeja con Ramo de Margaritas",
-        price: 159900,
+        price: 199900,
         image: "assets/foto38.webp",
         description: "Globo burbuja R18 · 7 globos de látex R6 · Ramo de flores margarita en base de madera · Jugo de naranja natural en envase de vidrio · Fruta picada · Cereal · Yogurt griego · Sándwich pequeño · Huevos con salchichas y arepa · Bandeja de madera · 3 moños · Cinta decorativa · Tarjeta · Cubiertos.",
         categories: ["precio-alto"]
@@ -692,7 +695,7 @@ const products = [
     {
         id: 39,
         name: "Bandeja Premium con 9 Rosas",
-        price: 230000,
+        price: 287900,
         image: "assets/foto39.webp",
         description: "3 globos de látex cromados R12 · 20 globos de látex R6 · 9 rosas · Astromelia · Follaje gipso · Bon Yurt · Galletas artesanales · Croissant · Fruta picada · Cereal · Yogurt griego · Sándwich pequeño · Huevos con salchichas y arepa · Bandeja de madera · 3 moños · Cinta decorativa · Tarjeta · Cubiertos.",
         categories: ["precio-alto"]
@@ -700,7 +703,7 @@ const products = [
     {
         id: 40,
         name: "Bandeja de Madera Desayuno Especial",
-        price: 129700,
+        price: 162900,
         image: "assets/foto40.webp",
         description: "Bandeja con huevos, salchichas y arepa · Sándwich · Postre · Fruta picada · Jugo de naranja en envase de vidrio · Galletas artesanales · Yogurt griego con cereal · Croissant · Chocolatina de 10 g · Bon Kiss · 2 masmelos corazón · 2 bombas de látex R12 cromado · Globo metalizado R18 · Caja de madera tipo bandeja 34x21 · Mantel · Tarjeta personalizada · Apliques decorativos · Moños.",
         categories: ["precio-alto"]
@@ -907,5 +910,50 @@ const products = [
         // Render inicial
         renderProducts();
     </script>
+    <!-- ============================================================
+         CONVERSIÓN GOOGLE ADS - AW-17658828097
+         Solo en esta página (catálogo).
+         La conversión NO se dispara al cargar la página ni al verla:
+         se dispara ÚNICAMENTE al hacer clic en
+           · los botones "Pedir Ahora" (.btn-order)
+           · el botón "Diseñar mi desayuno" (.btn-custom)
+           · cualquier botón o enlace de WhatsApp (wa.me)
+         Los enlaces de teléfono (tel:) NO cuentan.
+         ============================================================ -->
+    <script>
+    (function () {
+        var SEND_TO = 'AW-17658828097/9wh3CNec3NkcEMGqseRB';
+        var ultimoDisparo = 0;
+
+        var SELECTOR = [
+            '.btn-order',
+            '.btn-custom',
+            'a[href*="wa.me"]',
+            'a[href*="api.whatsapp.com"]',
+            'a[href*="web.whatsapp.com"]',
+            '.btn-whatsapp',
+            '.navbar-whatsapp',
+            '.whatsapp-button',
+            '.contact-btn-whatsapp'
+        ].join(',');
+
+        document.addEventListener('click', function (e) {
+            var el = e.target && e.target.closest ? e.target.closest(SELECTOR) : null;
+            if (!el) return;
+
+            var href = el.getAttribute('href') || '';
+            if (href.indexOf('tel:') === 0) return;   // llamadas no cuentan
+
+            if (typeof gtag !== 'function') return;
+
+            var ahora = new Date().getTime();
+            if (ahora - ultimoDisparo < 1500) return; // evita doble clic
+            ultimoDisparo = ahora;
+
+            gtag('event', 'conversion', {'send_to': SEND_TO});
+        }, true);
+    })();
+    </script>
+
 </body>
 </html>

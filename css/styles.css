@@ -1,7 +1,7 @@
 /* =====================================================
    AMATISTA · LUXURY DESIGN SYSTEM v2 — Edición 360
    Hero inmersivo · Galería de arcos · Filas editoriales
-   Tinta profunda, lila Armenia, blanco cálido, oro champán.
+   Tinta profunda, lila Anmenia, blanco cálido, oro champán.
    CSS puro: cero recursos externos nuevos.
    ===================================================== */
 :root {
@@ -118,7 +118,7 @@ a {
 
 /* Marca de agua serif, casi invisible */
 .hero-section::before {
-    content: 'Armenia';
+    content: 'Anmenia';
     position: absolute;
     top: 8%;
     left: -2%;
@@ -383,7 +383,7 @@ a {
 }
 
 .testimonials-carousel::before {
-    content: 'Momentos Armenia';
+    content: 'Momentos Anmenia';
     position: absolute;
     top: 34px;
     left: 50%;

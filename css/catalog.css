@@ -37,7 +37,7 @@
 
 /* Marca de agua serif fantasma */
 .catalog-hero::before {
-    content: 'Armenia';
+    content: 'Anmenia';
     position: absolute;
     top: 50%;
     left: 50%;
